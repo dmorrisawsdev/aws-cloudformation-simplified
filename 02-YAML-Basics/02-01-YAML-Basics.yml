@@ -12,13 +12,16 @@ PoliceCases: null
 
 #YAML Lists
 Persons:
+  - James
   - Dave
   - John
-  - Mike  
+  - Mike
+  - Derrick  
 Persons: [Dave, John, Mike]
 
 #YAML Dictionary
 Dave:
+  Status: Single
   Age: 25
   Occupation: Engineer
   State: New Jersey
@@ -27,6 +30,18 @@ Dave:
 
 #YAML Lists containing dictionaries
 Persons:
+  - Harry:
+      Age: 45
+      State:
+      Hobbies: [cycling, swimming, singing]
+  - Karen:
+      Age: 26
+      Occupation: Dancer
+      State: Florida
+      Hobbies:
+        - Golfing
+        - Tennis
+        - Painting
   - Dave:
       Age: 25
       Occupation: Engineer
